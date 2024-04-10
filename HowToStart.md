@@ -1,42 +1,16 @@
-Create a file
 
-go to the file in the terminal
+Importing and creating modules:
 
-At the terminal, run:
+Create new modules:
 
-```
-npm init
-```
+modules/operations.js (Contains modules to math operations stuff)
 
-```
-name: (nodejs-express-sequelize-mysql)version: (1.0.0) 
-description: Node.js Rest Apis with Express, Sequelize & MySQL.
-entry point: (index.js) server.js
-test command: 
-git repository: 
-keywords: nodejs, express, sequelize, mysql, rest, api
-author: bezkoder
-license: (ISC)
+in the app.js:
 
-Is this ok? (yes) yes
-```
+import them using require method
 
-Then install the necessary modules for your needs (express, sequelize, mysql2, cors)
+OBS: The variable requiring the file is the object and the functions are the methods of this object
 
-```
-npm install express sequelize mysql2 cors --save
-```
+Stopped at:
 
-Create the app,js
-
-OBS: To run it, run:
-
-```
-node app.js
-```
-
-Open your browser and search for:
-
-localhost:3000/users
-
-To see the Hello world
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#using_asynchronous_apis
